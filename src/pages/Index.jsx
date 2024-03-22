@@ -8,19 +8,19 @@ const Index = () => {
     <Box>
       <Header />
       {}
-      <Box bg="gray.100" py={20}>
+      <Box py={40} bgImage="url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjB0ZWFtfGVufDB8fHx8MTcxMTA3NTE0Nnww&ixlib=rb-4.0.3&q=80&w=1080')" bgPosition="center" bgRepeat="no-repeat" bgSize="cover">
         <Box maxW="6xl" mx="auto" px={4}>
-          <Flex align="center" justify="space-between" wrap="wrap">
-            <Box flex={1}>
-              <Text fontSize="xl" mb={8}>
-                Building your dreams, one brick at a time.
-              </Text>
-              <Button colorScheme="blue" size="lg">
-                Get a Quote
-              </Button>
-            </Box>
-            <Image src="https://images.unsplash.com/photo-1535732759880-bbd5c7265e3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBzaXRlfGVufDB8fHx8MTcxMTA3NTE0NXww&ixlib=rb-4.0.3&q=80&w=1080" alt="Construction Site" maxW="500px" ml={8} />
-          </Flex>
+          <Box maxW="xl" color="white">
+            <Heading as="h1" size="2xl" mb={4}>
+              Transforming Spaces, Building Dreams
+            </Heading>
+            <Text fontSize="xl" mb={8}>
+              ABC Construction is your trusted partner for all your construction needs. From concept to completion, we deliver exceptional results that exceed your expectations.
+            </Text>
+            <Button colorScheme="blue" size="lg" px={8} py={6}>
+              Get Started
+            </Button>
+          </Box>
         </Box>
       </Box>
 
