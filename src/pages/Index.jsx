@@ -1,18 +1,17 @@
 import React from "react";
 import { Box, Heading, Text, Stack, Flex, Button, Image, SimpleGrid, List, ListItem, ListIcon } from "@chakra-ui/react";
 import { FaTools, FaHardHat, FaBuilding, FaPhone } from "react-icons/fa";
+import Header from "../components/Header";
 
 const Index = () => {
   return (
     <Box>
-      {/* Hero Section */}
+      <Header />
+      {}
       <Box bg="gray.100" py={20}>
         <Box maxW="6xl" mx="auto" px={4}>
           <Flex align="center" justify="space-between" wrap="wrap">
             <Box flex={1}>
-              <Heading as="h1" size="2xl" mb={4}>
-                ABC Construction
-              </Heading>
               <Text fontSize="xl" mb={8}>
                 Building your dreams, one brick at a time.
               </Text>
